@@ -29,7 +29,8 @@
 </template>
 
 <script lang="ts">
-export default {
+import Vue from 'vue';
+export default Vue.extend({
   data() {
     return {
       user: {
@@ -46,7 +47,7 @@ export default {
       });
     },
   },
-};
+});
 </script>
 
 <style lang="scss">
