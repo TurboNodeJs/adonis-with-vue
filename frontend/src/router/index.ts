@@ -28,8 +28,9 @@ const guestRouteGuard: NavigationGuard = async (_to, _from, next) => {
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    // name: 'Home',
+    // component: Home,
+    redirect: "/dashboard"
   },
   {
     path: '/dashboard',
